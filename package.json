@@ -1,0 +1,17 @@
+{
+  "name": "boiler_p",
+  "version": "1.0.0",
+  "description": "this is a custom boiler",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf dist && parcel build index.html --public-url ./",
+    "publish": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0"
+  }
+}
